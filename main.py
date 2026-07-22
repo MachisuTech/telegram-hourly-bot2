@@ -2,8 +2,8 @@ import os
 import requests
 
 # Retrieve credentials from GitHub Secrets
-BOT_TOKEN = os.getenv("8767695621:AAFv11-DCnAGcJ2oTIWUlT20XBdTpJsBCQs")
-CHANNEL_ID = os.getenv("@tgminiappsupdates")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 
 def send_hourly_message():
