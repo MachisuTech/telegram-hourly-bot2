@@ -22,6 +22,6 @@ jobs:
 
       - name: Run Telegram Script
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          Kreegyrbot: ${{ secrets.Kreegyrbot }}
+          CHANNEL_ID: ${{ secrets.8767695621:AAFv11-DCnAGcJ2oTIWUlT20XBdTpJsBCQs }}
         run: python main.py
