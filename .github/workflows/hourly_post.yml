@@ -2,9 +2,7 @@ name: Telegram Hourly Post
 
 on:
   schedule:
-    # Runs at minute 0 of every hour
     - cron: '0 * * * *'
-  # Allows you to manually trigger the script from GitHub to test it
   workflow_dispatch:
 
 jobs:
@@ -12,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
 
